@@ -1,3 +1,25 @@
 .pw{
     border : 1px solid blue;
 }
+
+div {
+    width: 670;
+    height: 960;
+    top: 60px;
+    left: 625px;
+    border-radius: 20px;
+    border-width: 1px;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px 0px #0068FF40;
+    display : flex;
+    flex-direction: column;
+    justify-content : space-around;
+    align-items: center;
+    }
+h2 {
+    width: 466;
+    height: 94;
+    top: 132px;
+    left: 725px;
+    color: #0068FF;
+}   
