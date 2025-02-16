@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <title>회원가입</title>
-    <link href = "./02-signup.css" rel="stylesheet">
+    <link href="./02-signup.css" rel="stylesheet">
 </head>
+
 <body>
-    <div>
-        <h2>회원 가입을 위해 <br> 정보를 입력해주세요</h2>
-        <input type="text" placeholder="이메일을 입력해주세요"><br><br>
-        <input type="text" placeholder="이름을 입력해주세요"><br><br>
-        <input class = "pw" type="password" placeholder="비밀번호를 입력해주세요"><br><br>
-        <input class="pw" type="password" placeholder="비밀번호를 다시 입력홰주세요"><br><br>
-        <select>
-            <option disabled="true" selected = "true">지역을 선택하세요</option>
-            <option>서울</option>
-            <option>경기</option>
-            <option>인천</option>
-        </select>
-        <br><br>
-        <input type = "radio" name ="gender">여성
-        <input type = "radio" name="gender">남성
-        <br><br>
-        <input type = "checkbox" style="display:flex "> 이용약관 어쩌구에 완정 동의합니다.
-        <hr>
-        <button>가입하기</button>
+    <div class="background">
+        <div class="outer_box">
+            <div class="wrapper">
+                <div class="wrapper_header">회원 가입을 위해 <br> 정보를 입력해주세요.
+                    <div class="wrapper_input">
+                        * 이메일
+                        <input class="input" type="text">
+                    </div>
+                    <div class="wrapper_input">
+                        * 이름
+                        <input class="input" type="text">
+                    </div>
+                    <div class="wrapper_input">
+                        * 비밀번호
+                        <input class="input" type="text">
+                    </div>
+                    <div class="wrapper_input">
+                        * 비밀번호 확인
+                        <input class="input" type="text">
+                    </div>
+                    <div class="wrapper_gender">
+                        <div class="gender_radio">
+                            <input type ="radio">남성
+                        </div>
+                        <div class="gender_radio">
+                            <input type ="radio">여성
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
